@@ -34,11 +34,12 @@ h2 {
 }
 
 @font-face{
-    font-family: overseer;
-    src: url('fonts/overseer.otf') format('opentype'),
-        url('overseer.woff2') format('woff2'),
-        url('overseer.woff') format('woff'),
-        url('overseer.ttf')  format('truetype');
+    font-family: 'overseer';
+    src: url('fonts/overseer.otf') format('opentype');
+    src: url('/fonts/overseer.eot') format('embedded-opentype'),
+    url('/fonts/overseer.woff2') format('woff2'),
+    url('/fonts/overseer.woff') format('woff'),
+    url('/fonts/overseer.ttf') format('truetype');
 }
 
 p {
