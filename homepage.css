@@ -16,7 +16,7 @@ body {
 
 h1 {
     color: white;
-    font-family: overseer;
+    font-face: overseer;
     text-shadow: 2px 2px 3px black, 0 0 1em black, 0 0 0.2em white;
     font-size: 50px;
     margin-top: -111px;
@@ -35,7 +35,7 @@ h2 {
 
 @font-face{
     font-family: overseer;
-    src:url("overseer");
+    src:url("fonts/overseer");
 }
 
 p {
