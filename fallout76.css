@@ -7,7 +7,7 @@ title {
 body {
   background-color: grey;
   text-align: left;
-  background-image: url("wastelanders.jpg");
+  background-image: url("image/wastelanders.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -41,8 +41,12 @@ h3 {
 }
 
 @font-face{
-	font-family: overseer;
-	src:url("overseer");
+    font-family: 'overseer';
+    src: url('fonts/overseer.otf') format('opentype');
+    src: url('/fonts/overseer.eot') format('embedded-opentype'),
+    url('/fonts/overseer.woff2') format('woff2'),
+    url('/fonts/overseer.woff') format('woff'),
+    url('/fonts/overseer.ttf') format('truetype');
 }
 
 p {
