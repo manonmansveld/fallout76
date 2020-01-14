@@ -34,8 +34,8 @@ h2 {
 }
 
 @font-face{
-    font-family: overseer;
-    src:url("fonts/overseer");
+    font-family: 'overseer';
+    src:url("/fonts/overseer") format('opentype');
 }
 
 p {
