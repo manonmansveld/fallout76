@@ -37,9 +37,9 @@ h2 {
     font-family: "overseer", sans-serif;
     src: url('fonts/overseer.otf') format('opentype');
     src: url('/fonts/overseer.eot') format('embedded-opentype'),
-    url('/fonts/overseer.woff2') format('woff2'),
-    url('/fonts/overseer.woff') format('woff'),
-    url('/fonts/overseer.ttf') format('truetype');
+    url('fonts/overseer.woff2') format('woff2'),
+    url('fonts/overseer.woff') format('woff'),
+    url('fonts/overseer.ttf') format('truetype');
 }
 
 p {
